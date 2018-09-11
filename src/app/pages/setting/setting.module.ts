@@ -20,4 +20,4 @@ import { SettingPage } from './setting.page';
   ],
   declarations: [SettingPage]
 })
-export class SettingPageModele {}
+export class SettingPageModule {}
