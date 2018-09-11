@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Alaude30",
+      "name": "Julius"
+    },
+    {
+      "id": 2,
+      "username": "Ying17",
+      "name": "Ace"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "title": "test",
+      "users": [{ "userId": 1 }]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 1,
+      "message": "Sample text"
+    }
+  ]
+}
