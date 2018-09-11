@@ -20,4 +20,4 @@ import { RegisterPage } from './register.page';
   ],
   declarations: [RegisterPage]
 })
-export class RegisterPageModuele {}
+export class RegisterPageModule {}
