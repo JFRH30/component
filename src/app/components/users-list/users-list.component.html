@@ -8,8 +8,13 @@
 
 <ion-content>
     <ion-list>
-        <ion-item>
-            users
+        <ion-item *ngFor="let user of users" mode="ios" margin-top>
+            <ion-avatar margin>
+                <img src="../../../assets/image/bg.jpg" alt="avatar">
+            </ion-avatar>
+            <ion-label>
+                {{ user.name }}
+            </ion-label>
         </ion-item>
     </ion-list>
 </ion-content>
