@@ -11,6 +11,8 @@ const routes: Routes = [
   { path: 'card', loadChildren: './components/card/card.module#CardModule' },
   { path: 'checkbox', loadChildren: './components/checkbox/checkbox.module#CheckBoxModule' },
   { path: 'chip', loadChildren: './components/chip/chip.module#ChipModule' },
+  { path: 'content', loadChildren: './components/content/content.module#ContentModule' },
+  { path: 'grid', loadChildren: './components/grid/grid.module#GridModule' },
   { path: '', redirectTo: 'action-sheet', pathMatch: 'full' }
 ];
 
