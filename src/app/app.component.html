@@ -1,3 +1,84 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <!-- this function like header tag in html5 -->
+  <ion-toolbar color=tertiary>
+    <ion-buttons slot="start">
+      <ion-menu-toggle>
+        <ion-button>
+          <ion-icon name="menu"></ion-icon>
+        </ion-button>
+      </ion-menu-toggle>
+    </ion-buttons>
+    <ion-title>
+      Component Documentation
+    </ion-title>
+  </ion-toolbar>
+
+  <!-- this is will hold the split pane -->
+  <ion-content>
+
+    <ion-split-pane>
+      <ion-menu side="start">
+        <ion-content>
+          <ion-list>
+            <ion-searchbar mode="ios"></ion-searchbar>
+            <ion-list-header>
+              Components
+            </ion-list-header>
+            <ion-item routerLink="/action-sheet">
+              Action Sheet
+            </ion-item>
+            <ion-item routerLink="/alert">
+              Alert
+            </ion-item>
+            <ion-item routerLink="/anchor">
+              Anchor
+            </ion-item>
+            <ion-item routerLink="/avatar">
+              Avatar
+            </ion-item>
+            <ion-item routerLink="/back-button">
+              Back Button
+            </ion-item>
+            <ion-item routerLink="/button">
+              Button
+            </ion-item>
+            <ion-item routerLink="/card">
+              Card
+            </ion-item>
+            <ion-item routerLink="/checkbox">
+              Checkbox
+            </ion-item>
+            <ion-item routerLink="/chip">
+              Chip
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+            <ion-item>
+              Action Sheet
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-menu>
+      <ion-router-outlet main></ion-router-outlet>
+    </ion-split-pane>
+
+  </ion-content>
+
 </ion-app>

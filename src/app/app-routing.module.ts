@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },
-  { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
-  { path: 'register', loadChildren: './pages/register/register.module#RegisterPageModule' },
-  { path: 'setting', loadChildren: './pages/setting/setting.module#SettingPageModule' }
+  { path: 'action-sheet', loadChildren: './components/action-sheet/action-sheet.module#ActionSheetModule' },
+  { path: 'alert', loadChildren: './components/alert/alert.module#AlertModule' },
+  { path: 'anchor', loadChildren: './components/anchor/anchor.module#AnchorModule' },
+  { path: 'avatar', loadChildren: './components/avatar/avatar.module#AvatarModule' },
+  { path: 'back-button', loadChildren: './components/back-button/back-button.module#BackButtonModule' },
+  { path: 'button', loadChildren: './components/button/button.module#ButtonModule' },
+  { path: 'card', loadChildren: './components/card/card.module#CardModule' },
+  { path: 'checkbox', loadChildren: './components/checkbox/checkbox.module#CheckBoxModule' },
+  { path: 'chip', loadChildren: './components/chip/chip.module#ChipModule' },
+  { path: '', redirectTo: 'action-sheet', pathMatch: 'full' }
 ];
 
 @NgModule({

@@ -1,5 +1,5 @@
 {
-  "name": "chat",
+  "name": "ionic-component",
   "integrations": {
     "cordova": {}
   },
