@@ -1,4 +1,4 @@
-# This is a simple Chat
+# This is a ionic component documentation
 
 ## Ionic v4 project
 
