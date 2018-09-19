@@ -1,15 +1,25 @@
-<ion-header>
-    <ion-toolbar>
+<ion-header translucent>
+    <ion-toolbar translucent>
         <ion-title>
             Header
         </ion-title>
     </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <ion-title>Content</ion-title>
-
-
+<ion-content (ionScrollEnd)="c.scrollToTop(2000)" #c>
+    <ion-button (click)="c.scrollToBottom(3000)"> Go Down</ion-button>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <ion-button (click)="c.scrollToTop(1000)"> Going Up</ion-button>
 </ion-content>
 
 <ion-footer>
